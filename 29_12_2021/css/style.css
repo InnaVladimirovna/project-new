@@ -1,0 +1,62 @@
+@font-face{
+    font-family: Justus-Italic; 
+    src: url(../fonts/Justus-Italic.ttf);
+}
+@font-face{
+    font-family: Lovelo-Black; 
+    src: url(../fonts/Lovelo_Black.otf);
+}
+body{
+    background: url(../img/bg.png);
+    margin: 0;
+}
+/************************************HEADER**********************************/
+header{
+    padding-top: 14px;
+}
+.logotext1{
+    font-size: 14px;
+    font-family: Justus-Italic;
+    float: left;
+    margin: 44px 11px 0 83px;
+    letter-spacing: 0.3px;
+}
+.logotext2 {
+    float: left;
+    font-family: Justus-Italic;
+    font-size: 14px;
+    color: brown;
+    text-transform: uppercase;
+    margin:  44px 10px 10px 13px;
+    letter-spacing: 0.34px;
+}
+.logoimg{
+    float: left;
+}
+/************************************MAIN**********************************/
+main{
+    background: url(../img/fon\ \(1\).png) no-repeat;
+    padding: 1px;
+    margin-top: -9px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 979px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+.one{
+    font-family: Lovelo-Black;
+    letter-spacing: 7px;
+    font-size: 50px;
+    margin: 73px 9px 0 22px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding: 20px 0 18px 0;
+    text-align: center;
+    box-shadow: 0 -2px 0 0 #e5e5e5,0 -3px 0 0 black,0 2px 0 0 #e5e5e5,0 3px 0 0 black;
+    
+}
